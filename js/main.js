@@ -162,3 +162,11 @@ function hideReturnDatePicker(tripType){
     
   }
 }
+
+
+function validateNameCount(name){
+  if (name.length < 5){
+          alert("Please enter a valid name. Minimum characters are 5");
+          
+      }
+}
