@@ -133,8 +133,8 @@ function checkDestination(){
 
 function validateForm(form) {
   if(checkDestination()){
-    return false;
     form1.action = 'index.html';
+    return false;
   }else{
     form1.action = 'book.html';
   }
